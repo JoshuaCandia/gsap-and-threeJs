@@ -4,8 +4,8 @@ import gsap from "gsap";
 const GsapFrom = () => {
   // TODO: Implement the gsap.from() method
   useGSAP(() => {
-    gsap.to("#green-box", {
-      x: 450,
+    gsap.from("#green-box", {
+      x: 250,
       repeat: -1,
       yoyo: true,
       rotation: 360,
